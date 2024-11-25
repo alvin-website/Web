@@ -137,6 +137,42 @@
     color: white;
 }
 
+.main_content form{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: #383d53;
+    width: 500px;
+    margin-top: 10px;
+    border-radius: 20px;
+    
+}
+.main_content form button{
+    margin-top: 1rem;
+    display: block;
+    width: 80px;
+    background-color: #646d94;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 200px;
+}
+.main_content form label{
+    margin-left: 20px;
+}
+.main_content form button:hover{
+    background-color: #8b99cb;}
+
+.main_content form input, textarea{
+    background-color: rgb(216, 216, 216);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 10px;
+    width: 90%;
+
+}
+
 .main_content h1{
     font-size: 3.5rem;
     color: white;
